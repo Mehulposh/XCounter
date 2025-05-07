@@ -12,6 +12,7 @@ function App() {
     <>
       <h1>Counter App</h1>
       <div>
+        <h2>Count: {count}</h2>
         <button onClick={() => (
           handleClick('+')
         )}>Increment</button>
